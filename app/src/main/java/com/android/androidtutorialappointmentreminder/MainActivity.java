@@ -18,7 +18,7 @@ import java.util.Objects;
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
-    private static final int REQUEST_CODE_ADD_APPOINTMENT = 999;
+    private static final int REQUEST_CODE_ADD_APPOINTMENT = 1;
     private ArrayList<Appointment> mAppointments = new ArrayList<>();
 
     private TableLayout mTableLayoutAppointment;
@@ -109,7 +109,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onAddAppointment(View view) {
-        startActivity(new Intent(this, AddAppointmentActivity.class));
+        Intent intentAddAppointment = new Intent(this, AddAppointmentActivity.class);
+        startActivityForResult(intentAddAppointment, REQUEST_CODE_ADD_APPOINTMENT);
     }
 
     @Override
