@@ -3,4 +3,5 @@
     <string name="main_text_view_name">Name</string>
     <string name="main_text_view_type">Type</string>
     <string name="main_text_view_date_time">Date/Time</string>
+    <string name="main_button_add_appointment">Add Appointment</string>
 </resources>
