@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">AndroidTutorialAppointmentReminder</string>
+    <string name="main_text_view_name">Name</string>
+    <string name="main_text_view_type">Type</string>
+    <string name="main_text_view_date_time">Date/Time</string>
 </resources>
