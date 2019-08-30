@@ -21,6 +21,7 @@ import java.util.Calendar;
 public class AddAppointmentActivity extends AppCompatActivity {
 
 
+    private static final String TAG = "AddAppointmentActivity";
 
     private TextView mTextViewDate;
     private TextView mTextViewTime;
