@@ -117,7 +117,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onActivityResult(final int requestCode, final int resultCode, @Nullable final Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == REQUEST_CODE_ADD_APPOINTMENT && resultCode == RESULT_OK){
+            String name = data.getStringExtra("name");
+            String type = data.getStringExtra("type");
+            String monthOfYear = data.getStringExtra("monthOfYear");
+            int dayOfMonth = data.getIntExtra("dayOfMonth", 1);
+            int year = data.getIntExtra("year",0);
+            int hour = data.getIntExtra("hour",1);
+            int minute = data.getIntExtra("minute", 1);
+            String amOrPm = data.getStringExtra("AMorPM");
 
+            mAppointments.add(new Appointment(name, type, monthOfYear, dayOfMonth, year, hour, minute, amOrPm));
+            populateTable(mAppointments.size()-1);
         }
     }
 }
