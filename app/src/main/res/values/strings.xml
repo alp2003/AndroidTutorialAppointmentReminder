@@ -4,4 +4,15 @@
     <string name="main_text_view_type">Type</string>
     <string name="main_text_view_date_time">Date/Time</string>
     <string name="main_button_add_appointment">Add Appointment</string>
+    <string name="add_appointment_edit_text_name">Enter name</string>
+    <string name="add_appointment_button_cancel">Cancel</string>
+    <string name="add_appointment_button_add_appointment">Add Appointment</string>
+
+    <string-array name="task_type">
+        <item>Personal</item>
+        <item>Work</item>
+        <item>School</item>
+        <item>Health</item>
+        <item>Other</item>
+    </string-array>
 </resources>

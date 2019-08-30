@@ -1,5 +1,6 @@
 package com.android.androidtutorialappointmentreminder;
 
+import android.content.Intent;
 import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
@@ -15,5 +16,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onAddAppointment(View view) {
+        startActivity(new Intent(this, AddAppointmentActivity.class));
     }
 }
