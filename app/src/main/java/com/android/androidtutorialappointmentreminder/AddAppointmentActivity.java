@@ -114,6 +114,7 @@ public class AddAppointmentActivity extends AppCompatActivity {
     }
 
     public void onCancelButton(View view) {
+        finish();
     }
 
     public void onEditTextViewDate(View view) {
@@ -134,8 +135,6 @@ public class AddAppointmentActivity extends AppCompatActivity {
         }
         return null;
     }
-
-
 
 
 
