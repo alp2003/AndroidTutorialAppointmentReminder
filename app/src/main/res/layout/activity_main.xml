@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -79,22 +80,19 @@
                     android:id="@+id/main_text_view_name_table"
                     android:layout_width="142dp"
                     android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:text="Doctor Visit" />
+                    android:gravity="center" />
 
                 <TextView
                     android:id="@+id/main_text_view_type_table"
                     android:layout_width="93dp"
                     android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:text="Health" />
+                    android:gravity="center" />
 
                 <TextView
                     android:id="@+id/main_text_view_date_time_table"
                     android:layout_width="140dp"
                     android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="Oct 9, 2016" />
+                    android:gravity="center" />
             </TableRow>
 
         </TableLayout>

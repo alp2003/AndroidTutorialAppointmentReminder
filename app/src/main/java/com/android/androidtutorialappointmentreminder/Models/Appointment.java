@@ -23,7 +23,7 @@ public class Appointment {
         mYearDate = yearDate;
         mHourTime = hourTime;
         mMinuteTime = minuteTime;
-        this.mAMorPMTime = AMorPMTime;
+        mAMorPMTime = AMorPMTime;
     }
 
     public String getName() {
